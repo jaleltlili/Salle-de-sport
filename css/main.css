@@ -1,0 +1,77 @@
+body{
+    background: #DDD;
+}
+
+.container{
+    width: 940px;
+    margin: 20px auto;
+    background: #FFF;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+header{
+    min-height: 100px;
+    background: #F6F6F6;
+    overflow: hidden;
+}
+
+header .logo{
+    width: 20%;
+    float: left; 
+}
+
+header .logo img{
+    width: 130px;
+    margin: 5px 10px; 10px 10px;
+}
+
+header nav{
+    width: 80%;
+    float: right;
+}
+
+header nav ul{
+    margin: 50px 50px 0 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: purple;
+    letter-spacing: 0.1em;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;  
+}
+
+.content{
+    height: 500px;
+    background: #BBB;
+    overflow: hidden;
+}
+
+
+.content .affiches{
+    height: 500px;
+}
+
+footer{
+    min-height: 100px;
+    background: #CCC;
+}
+
+footer .info{
+    height: 100px;
+    background: #676767;
+}
+
+footer .copyright{
+    height: 40px;
+    background: #333;
+}
